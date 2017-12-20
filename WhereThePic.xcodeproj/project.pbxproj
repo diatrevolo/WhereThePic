@@ -14,6 +14,8 @@
 		F74883E41FEAC02F00976BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74883E21FEAC02F00976BE8 /* LaunchScreen.storyboard */; };
 		F74883EF1FEAC02F00976BE8 /* WhereThePicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74883EE1FEAC02F00976BE8 /* WhereThePicTests.swift */; };
 		F74883FA1FEAC02F00976BE8 /* WhereThePicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74883F91FEAC02F00976BE8 /* WhereThePicUITests.swift */; };
+		F74884081FEAC05900976BE8 /* RN1015k500.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F74884071FEAC05900976BE8 /* RN1015k500.mlmodel */; };
+		F748840A1FEAC63100976BE8 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74884091FEAC63100976BE8 /* UIImage+CVPixelBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F74883F51FEAC02F00976BE8 /* WhereThePicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereThePicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74883F91FEAC02F00976BE8 /* WhereThePicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereThePicUITests.swift; sourceTree = "<group>"; };
 		F74883FB1FEAC02F00976BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74884071FEAC05900976BE8 /* RN1015k500.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RN1015k500.mlmodel; sourceTree = "<group>"; };
+		F74884091FEAC63100976BE8 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F74883E01FEAC02F00976BE8 /* Assets.xcassets */,
 				F74883E21FEAC02F00976BE8 /* LaunchScreen.storyboard */,
 				F74883E51FEAC02F00976BE8 /* Info.plist */,
+				F74884071FEAC05900976BE8 /* RN1015k500.mlmodel */,
+				F74884091FEAC63100976BE8 /* UIImage+CVPixelBuffer.swift */,
 			);
 			path = WhereThePic;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74883DC1FEAC02F00976BE8 /* ViewController.swift in Sources */,
+				F74884081FEAC05900976BE8 /* RN1015k500.mlmodel in Sources */,
 				F74883DA1FEAC02F00976BE8 /* AppDelegate.swift in Sources */,
+				F748840A1FEAC63100976BE8 /* UIImage+CVPixelBuffer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EK64L597KP;
 				INFOPLIST_FILE = WhereThePic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rawbirdtoe.WhereThePic;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EK64L597KP;
 				INFOPLIST_FILE = WhereThePic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rawbirdtoe.WhereThePic;
